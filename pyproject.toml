@@ -3,7 +3,7 @@
 name = "autogs-template"
 description = "AutoGS Template"
 authors = [{ name = "Max Mustermann", email = "max@mustermann.de" }]
-version = "0.1.0"
+dynamic = ["version"]
 
 readme = "README.md"
 license = { text = "MIT License" }
