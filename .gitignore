@@ -4,6 +4,7 @@
 # Python Environment
 .python-version
 .venv
+.env
 
 
 # General ignores for macOS

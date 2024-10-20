@@ -1,4 +1,4 @@
-# AutoRA Template
+# AutoGS Template
 
 ## Quickstart Guide
 

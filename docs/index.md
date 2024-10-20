@@ -1,4 +1,4 @@
-# Name-Of-Your-Contribution (don't include AutoRA here)
+# Name-Of-Your-Contribution
 
 Explain what your contribution is doing here
 

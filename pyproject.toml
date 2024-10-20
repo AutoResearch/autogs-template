@@ -1,7 +1,7 @@
 [project]
 # UPDATE THIS BEFORE PUBLISHING
-name = "autora-theorist-template"
-description = "AutoRA Theorist Template"
+name = "autogs-template"
+description = "AutoGS Theorist Template"
 authors = [{ name = "Max Mustermann", email = "max@mustermann.de" }]
 version = "0.1.0"
 
@@ -11,20 +11,27 @@ requires-python = ">=3.8,<4"
 
 # ADD NEW DEPENDENCIES HERE
 dependencies = [
-    "autora-core",
-    "scikit-learn",
+    "autogs-core"
 ]
 
 [project.optional-dependencies]
 dev = [
-    "autora-core[dev]"
+    "autogs-core[dev]"
 ]
+
 
 [project.urls]
 homepage = "http://www.empiricalresearch.ai"
-repository = "https://github.com/AutoResearch/autora-theorist-template"
-documentation = "https://autoresearch.github.io/autora/"
+repository = "https://github.com/AutoResearch/autogs-template"
+documentation = "https://autoresearch.github.io/autogs/"
 
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--doctest-modules --import-mode importlib"
+pythonpath = "tests"
